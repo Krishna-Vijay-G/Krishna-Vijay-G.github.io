@@ -1,0 +1,3 @@
+<!-- Placeholder for project thumbnails -->
+<!-- Replace with your actual project screenshots -->
+<!-- Recommended size: 800x600 or 16:9 aspect ratio -->
