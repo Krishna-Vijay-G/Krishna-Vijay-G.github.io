@@ -1,0 +1,552 @@
+{
+  "meta": {
+    "title": "Krishna Vijay G | Portfolio",
+    "description": "Versatile Tech Fresher specializing in UI/UX Design, AI/ML, and Full-Stack Development",
+    "keywords": ["developer", "designer", "portfolio", "AI", "ML", "UX"],
+    "author": "Krishna Vijay G"
+  },
+  "basics": {
+    "name": "Krishna Vijay G",
+    "headline": "Versatile Tech Fresher",
+    "tagline": "Crafting Digital Experiences with Code & Design",
+    "email": "krishnavijay.gkv@gmail.com",
+    "phone": "+917708204956",
+    "location": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "country": "India"
+    },
+    "profilePicture": "/images/profile.jpg",
+    "resumeUrl": "/resume.pdf",
+    "availability": "Open to Opportunities",
+    "bio": "A skilled tech enthusiast with proven experience in user interface creation and a dedication to exploring diverse technological domains. Actively broadens expertise through workshops on cutting-edge advancements and is keenly focused on applying this knowledge to pioneering challenges in IoT Automation, Generative AI, and Game Design."
+  },
+  "socialLinks": [
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "username": "krishna-vijay",
+      "url": "https://www.linkedin.com/in/krishna-vijay/",
+      "icon": "linkedin"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "username": "Krishna-Vijay-G",
+      "url": "https://github.com/Krishna-Vijay-G",
+      "icon": "github"
+    },
+    {
+      "id": "google",
+      "name": "Google for Developers",
+      "username": "krishnavijay-g",
+      "url": "https://g.dev/krishnavijay-g",
+      "icon": "google"
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "username": "arkhins",
+      "url": "https://www.instagram.com/arkhins/",
+      "icon": "instagram"
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "username": "arkhins",
+      "url": "https://discord.com/users/arkhins.",
+      "icon": "discord"
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "username": "arkhins",
+      "url": "https://t.me/arkhins",
+      "icon": "telegram"
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "Bharath Institute of Higher Education and Research",
+      "degree": "Bachelor of Technology",
+      "field": "Computer Science (AI Specialization)",
+      "score": "87.0%",
+      "startDate": "2022",
+      "endDate": "2026",
+      "current": true,
+      "description": "Pursuing the Field of Computers and delving deep into AI with a specialization.",
+      "logo": "/images/education/bharath.png"
+    },
+    {
+      "id": "edu-2",
+      "institution": "SSV Institutions",
+      "degree": "+2 Board Exam",
+      "field": "Computer Science",
+      "score": "87.3%",
+      "startDate": "2020",
+      "endDate": "2022",
+      "current": false,
+      "description": "Finished schooling with Computer Science group.",
+      "logo": "/images/education/ssv.png"
+    },
+    {
+      "id": "edu-3",
+      "institution": "SSV Institutions",
+      "degree": "10th Board Exam",
+      "field": "School",
+      "score": "98.8%",
+      "startDate": "2018",
+      "endDate": "2020",
+      "current": false,
+      "description": "Finished the 10th Board Exam with distinction.",
+      "logo": "/images/education/ssv.png"
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-gdsc",
+      "company": "Google Developer Students Club (GDSC)",
+      "position": "Core Team Member",
+      "location": "Chennai, India",
+      "startDate": "Sep 2024",
+      "endDate": "Present",
+      "current": true,
+      "type": "Student Club",
+      "description": "Contributing as a core team member to organize, promote, and execute technical events, workshops, and community initiatives for GDSC at my institution.",
+      "highlights": [
+        "Organized and promoted technical events and workshops",
+        "Collaborated with students and faculty to grow the developer community",
+        "Supported peers in learning new technologies and Google developer tools"
+      ],
+      "technologies": ["Community", "Event Management", "Google Technologies"],
+      "logo": "/images/companies/gdsc.png",
+      "url": "https://gdsc.community.dev/"
+    },
+    {
+      "id": "exp-1",
+      "company": "Tetron Infotech",
+      "position": "Intern",
+      "location": "Chennai, India",
+      "startDate": "Jul 2023",
+      "endDate": "Sep 2023",
+      "current": false,
+      "type": "Internship",
+      "description": "Analyzed problems and worked with teams to develop solutions. Sorted and organized files, spreadsheets, and reports. Prepared project presentations and reports to assist senior staff.",
+      "highlights": [
+        "Analyzed problems and worked with teams to develop solutions",
+        "Sorted and organized files, spreadsheets, and reports",
+        "Prepared project presentations and reports to assist senior staff"
+      ],
+      "technologies": ["Data Analysis", "Team Collaboration", "Documentation"],
+      "logo": "/images/companies/tetron.png",
+      "url": "https://tetroninfotech.com/"
+    },
+    {
+      "id": "exp-2",
+      "company": "Teachnook",
+      "position": "Data Science Intern",
+      "location": "Chennai, India",
+      "startDate": "Dec 2022",
+      "endDate": "Feb 2023",
+      "current": false,
+      "type": "Internship",
+      "description": "Compiled, cleaned and manipulated data for proper handling. Modeled predictions with feature selection algorithms.",
+      "highlights": [
+        "Compiled, cleaned and manipulated data for proper handling",
+        "Modeled predictions with feature selection algorithms",
+        "Proven ability to learn quickly and adapt to new situations"
+      ],
+      "technologies": ["Python", "Data Science", "Machine Learning"],
+      "logo": "/images/companies/teachnook.png",
+      "url": "https://teachnook.com/"
+    },
+    {
+      "id": "exp-placeholder-1",
+      "company": "Your Company Name",
+      "position": "Your Position",
+      "location": "City, Country",
+      "startDate": "Month Year",
+      "endDate": "Month Year",
+      "current": false,
+      "type": "Full-time",
+      "description": "Brief description of your role and responsibilities.",
+      "highlights": [
+        "Key achievement or responsibility 1",
+        "Key achievement or responsibility 2"
+      ],
+      "technologies": ["Tech 1", "Tech 2"],
+      "logo": "/images/companies/placeholder.png",
+      "url": "https://company-website.com"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Hygieia - A HYBRID AI FRAMEWORK FOR MULTI DISEASE DIAGNOSIS",
+      "description": "A Framework has been built with multiple models to predict variety of conditions with scalable features and high trustworthy accuracy.",
+      "longDescription": "This Framework uses multiple AI models to diagnose. It has AI Chatting capabilities for the Healthcare and Blockchain integration. It integrates data from different sources to provide reliable health assessments.",
+      "thumbnail": "/images/projects/hygieia.png",
+      "images": [
+        "/images/projects/hygieia-1.png",
+        "/images/projects/hygieia-2.png",
+        "/images/projects/hygieia-3.png",
+        "/images/projects/hygieia-4.png",
+        "/images/projects/hygieia-5.png"
+      ],
+      "markdownFile": "/images/projects/hygieia.md",
+      "tags": ["Deep Learning", "AI", "TensorFlow", "Model Training"],
+      "category": "AI/ML",
+      "date": "November 2025",
+      "githubUrl": "https://github.com/Krishna-Vijay-G/Hygieia.git",
+      "liveUrl": "",
+      "pageUrl": "/hygieia",
+      "featured": true,
+      "status": "In Progress"
+    },
+    {
+      "id": "proj-2",
+      "title": "Predicting Microsoft Stock Values",
+      "description": "This project uses time series analysis and Keras to predict Microsoft stock values. The model was trained and evaluated, showing a Root Mean Squared Error (RMSE) of 16.94 (5.75% error) on data from 2020-2025.",
+      "longDescription": "A comprehensive stock prediction system using deep learning techniques including LSTM networks for time series forecasting. The project handles data preprocessing, time filtering, and timezone considerations.",
+      "thumbnail": "/images/projects/stock-prediction.png",
+      "images": [
+        "/images/projects/stock-prediction.png",
+        "/images/projects/stock-prediction-1.png"
+      ],
+      "markdownFile": "/images/projects/stock_prediction.md",
+      "tags": ["Machine Learning", "Python", "Keras", "Data Science"],
+      "category": "AI/ML",
+      "date": "May 2025",
+      "githubUrl": "https://github.com/Krishna-Vijay-G/Predicting-the-Stocks-Values-of-Microsoft.git",
+      "liveUrl": "",
+      "featured": false,
+      "status": "Completed"
+    },
+    {
+      "id": "proj-placeholder-1",
+      "title": "Project Title",
+      "description": "Short description of the project (2-3 sentences).",
+      "longDescription": "Detailed description explaining the project goals, challenges, and solutions implemented.",
+      "thumbnail": "/images/projects/placeholder.jpg",
+      "images": [
+        "/images/projects/placeholder-1.jpg",
+        "/images/projects/placeholder-2.jpg"
+      ],
+      "tags": ["Tag 1", "Tag 2", "Tag 3"],
+      "category": "Category",
+      "date": "Month Year",
+      "githubUrl": "https://github.com/username/repo",
+      "liveUrl": "https://live-demo.com",
+      "featured": false,
+      "status": "In Progress"
+    },
+    {
+      "id": "proj-placeholder-2",
+      "title": "UI/UX Case Study",
+      "description": "A comprehensive design case study showcasing user research and interface design.",
+      "longDescription": "This case study covers the entire design process from user research, wireframing, prototyping, to final high-fidelity designs.",
+      "thumbnail": "/images/projects/placeholder.jpg",
+      "images": [],
+      "tags": ["Design", "UI/UX", "Figma"],
+      "category": "Design",
+      "date": "Month Year",
+      "githubUrl": "",
+      "liveUrl": "",
+      "caseStudyUrl": "/case-studies/project-name",
+      "featured": false,
+      "status": "Completed"
+    }
+  ],
+  "skills": {
+    "categories": [
+      {
+        "name": "Frontend Development",
+        "skills": [
+          { "name": "HTML5", "icon": "html5", "level": 90 },
+          { "name": "CSS3", "icon": "css3", "level": 85 },
+          { "name": "JavaScript", "icon": "javascript", "level": 80 },
+          { "name": "React", "icon": "react", "level": 75 },
+          { "name": "Next.js", "icon": "nextjs", "level": 70 }
+        ]
+      },
+      {
+        "name": "Programming Languages",
+        "skills": [
+          { "name": "Python", "icon": "python", "level": 90 },
+          { "name": "SQL", "icon": "sql", "level": 80 },
+          { "name": "Java", "icon": "java", "level": 70 },          
+          { "name": "C", "icon": "c", "level": 75 },
+          { "name": "C++", "icon": "cplusplus", "level": 70 }
+        ]
+      },
+      {
+        "name": "UI/UX Design",
+        "skills": [
+          { "name": "Figma", "icon": "figma", "level": 85 },
+          { "name": "Adobe XD", "icon": "adobexd", "level": 75 },
+          { "name": "Photoshop", "icon": "photoshop", "level": 75 },
+          { "name": "Illustrator", "icon": "illustrator", "level": 80 }
+        ]
+      },
+      {
+        "name": "Data & AI",
+        "skills": [
+          { "name": "Machine Learning", "icon": "ml", "level": 75 },
+          { "name": "TensorFlow", "icon": "tensorflow", "level": 70 },
+          { "name": "Data Analysis", "icon": "data", "level": 80 },
+          { "name": "Power BI", "icon": "powerbi", "level": 75 }
+        ]
+      },
+      {
+        "name": "Tools & Platforms",
+        "skills": [
+          { "name": "Git", "icon": "git", "level": 80 },
+          { "name": "VS Code", "icon": "vscode", "level": 90 },
+          { "name": "Android Studio", "icon": "android", "level": 70 },
+          { "name": "Microsoft Office", "icon": "office", "level": 85 }
+        ]
+      }
+    ],
+    "techStack": [
+      "HTML5", "CSS3", "JavaScript", "Python", "Java", "C++", "Kotlin",
+      "React", "Next.js", "Angular", "TailwindCSS", "Figma", "Git", "TensorFlow",
+      "Power BI", "Android", "Firebase"
+    ]
+  },
+  "certifications": [
+    {
+      "id": "cert-1",
+      "name": "Android Developer",
+      "issuer": "Eduskills (AICTE)",
+      "date": "June 2025",
+      "description": "Completed a 10-week Android Developer Virtual Internship through AICTE - EduSkills with an Excellent Grade.",
+      "credentialUrl": "https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=f1b9e17df1ca6599410874ecc7e926ca",
+      "badge": "/images/certifications/android.png"
+    },
+    {
+      "id": "cert-2",
+      "name": "Quantum Computing",
+      "issuer": "IIT Roorkee, C-DAC",
+      "date": "June 2025",
+      "description": "Quantum Computing with merit from Centre for Development of Advanced Computing & IIT Roorkee, with a score of 82.78%.",
+      "credentialId": "CDACH/QML/160",
+      "credentialUrl": "",
+      "badge": "/images/certifications/cdac.png"
+    },
+    {
+      "id": "cert-3",
+      "name": "Foundations of AI",
+      "issuer": "Edunet Foundation (Microsoft)",
+      "date": "May 2025",
+      "description": "Completed a 4-week Foundations of AI internship, a Microsoft initiative implemented by Edunet Foundation in collaboration with AICTE.",
+      "credentialUrl": "",
+      "badge": "/images/certifications/ai.png"
+    },
+    {
+      "id": "cert-4",
+      "name": "Introduction to IoT",
+      "issuer": "NPTEL",
+      "date": "April 2025",
+      "description": "Certified for completing a 12-week course in Introduction to IoT by implementing IoT and Python.",
+      "credentialUrl": "https://internalapp.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS44S14321082304360624",
+      "badge": "/images/certifications/iot.png"
+    },
+    {
+      "id": "cert-5",
+      "name": "Big Data Computing",
+      "issuer": "NPTEL",
+      "date": "October 2024",
+      "description": "Certified for completing an 8-week course in Big Data Computing using Python.",
+      "credentialUrl": "https://nptel.ac.in/noc/E_Certificate/NPTEL24CS130S45251025804102050",
+      "badge": "/images/certifications/bigdata.png"
+    },
+    {
+      "id": "cert-6",
+      "name": "Google UX Design",
+      "issuer": "Grow with Google",
+      "date": "July 2023",
+      "description": "Holding a Google UX Design certificate, possessing practical UI/UX skills.",
+      "credentialUrl": "https://coursera.org/verify/professional-cert/K4AZ37ZXB5ZA",
+      "badge": "/images/certifications/google-ux.png"
+    },
+    {
+      "id": "cert-placeholder",
+      "name": "Certification Name",
+      "issuer": "Issuing Organization",
+      "date": "Month Year",
+      "description": "Brief description of the certification and what you learned.",
+      "credentialUrl": "https://verify-link.com",
+      "badge": "/images/certifications/placeholder.png"
+    }
+  ],
+  "awards": [
+    {
+      "id": "award-placeholder-1",
+      "title": "Award Title",
+      "issuer": "Awarding Organization",
+      "date": "Month Year",
+      "description": "Brief description of the award and why you received it.",
+      "image": "/images/awards/placeholder.png"
+    },
+    {
+      "id": "award-placeholder-2",
+      "title": "Competition Winner",
+      "issuer": "Competition Name",
+      "date": "Month Year",
+      "description": "Description of the competition and your achievement.",
+      "image": "/images/awards/placeholder.png"
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub-placeholder-1",
+      "title": "Publication Title",
+      "journal": "Journal/Conference Name",
+      "date": "Month Year",
+      "authors": ["Krishna Vijay G", "Co-author Name"],
+      "abstract": "Brief abstract or summary of the publication.",
+      "doi": "10.xxxx/xxxxx",
+      "url": "https://publication-link.com",
+      "tags": ["AI", "Machine Learning", "Research"]
+    }
+  ],
+  "volunteering": [
+    {
+      "id": "vol-f4-race",
+      "organization": "F4 Indian Championship",
+      "role": "Marshal",
+      "startDate": "2024",
+      "endDate": "2024",
+      "current": false,
+      "description": "Volunteered as a marshal during the F4 Indian Championship race event held in Chennai, ensuring safety protocols and race regulations were maintained.",
+      "logo": "/images/volunteering/f4-race.png"
+    },
+    {
+      "id": "vol-placeholder-1",
+      "organization": "Organization Name",
+      "role": "Volunteer Role",
+      "startDate": "Month Year",
+      "endDate": "Month Year",
+      "current": false,
+      "description": "Description of your volunteering activities and impact.",
+      "logo": "/images/volunteering/placeholder.png"
+    }
+  ],
+  "workshops": [
+    {
+      "id": "workshop-1",
+      "name": "Application of AI/ML Model",
+      "organizer": "IIRS-ISRO",
+      "date": "02 April 2025",
+      "description": "Participated in a workshop titled Application of AI/ML Model for Specific Crop Acreage Mapping conducted by ISRO IIRS Outreach Programme.",
+      "certificateUrl": "https://certificate.iirs.gov.in/checkstatus.php?uid=833c8d3c22aec6a3bd58db4aa0ca0e09&enm=202510462722739"
+    },
+    {
+      "id": "workshop-2",
+      "name": "Fundamentals of Laravel",
+      "organizer": "Techsmew",
+      "date": "11 June 2023",
+      "description": "Completion of Workshop about the Fundamentals of Laravel.",
+      "certificateUrl": ""
+    },
+    {
+      "id": "workshop-placeholder",
+      "name": "Workshop Name",
+      "organizer": "Organizer Name",
+      "date": "DD Month Year",
+      "description": "Brief description of the workshop content and learnings.",
+      "certificateUrl": "https://certificate-link.com"
+    }
+  ],
+  "interests": [
+    {
+      "id": "interest-1",
+      "name": "Generative AI",
+      "description": "Fascinated by the potential of generative AI models and their applications in Content Creation.",
+      "icon": "ai"
+    },
+    {
+      "id": "interest-2",
+      "name": "IoT Automation",
+      "description": "A technology enthusiast with a strong interest in and focus on the field of IoT automation.",
+      "icon": "iot"
+    },
+    {
+      "id": "interest-3",
+      "name": "Game Designing",
+      "description": "Passionate about the art and technology of game development with a keen interest in Level Design.",
+      "icon": "game"
+    },
+    {
+      "id": "interest-4",
+      "name": "Anime",
+      "description": "Enjoys watching anime for inspiration, storytelling, and creative world-building.",
+      "icon": "anime"
+    },
+    {
+      "id": "interest-5",
+      "name": "Web Development",
+      "description": "Building responsive and interactive web applications using modern frameworks and technologies.",
+      "icon": "web"
+    },
+    {
+      "id": "interest-6",
+      "name": "UI/UX Design",
+      "description": "Creating intuitive and visually appealing user experiences through thoughtful design practices.",
+      "icon": "design"
+    },
+    {
+      "id": "interest-7",
+      "name": "Mobile App Development",
+      "description": "Developing cross-platform mobile applications with focus on user engagement and performance.",
+      "icon": "mobile"
+    },
+    {
+      "id": "interest-8",
+      "name": "Manga",
+      "description": "Avid reader of manga, appreciating unique art styles and engaging narratives.",
+      "icon": "manga"
+    },
+    {
+      "id": "interest-9",
+      "name": "Cloud Computing",
+      "description": "Exploring cloud platforms and services to build scalable and reliable applications.",
+      "icon": "cloud"
+    },
+    {
+      "id": "interest-10",
+      "name": "Open Source Contribution",
+      "description": "Passionate about contributing to open source projects and giving back to the developer community.",
+      "icon": "opensource"
+    },
+    {
+      "id": "interest-11",
+      "name": "Books",
+      "description": "Loves reading books across genres to expand knowledge and imagination.",
+      "icon": "book"
+    },
+    {
+      "id": "interest-12",
+      "name": "Travel",
+      "description": "Passionate about exploring new places, cultures, and experiences through travel.",
+      "icon": "travel"
+    }
+  ],
+  "languages": [
+    { "id": "lang-1", "name": "Tamil", "proficiency": "Native", "level": 5 },
+    { "id": "lang-2", "name": "Kannada", "proficiency": "Bilingual", "level": 4 },
+    { "id": "lang-3", "name": "English", "proficiency": "Professional", "level": 4 },
+    { "id": "lang-4", "name": "Japanese", "proficiency": "JLPT N3", "level": 3 }
+  ],
+  "testimonials": [
+    {
+      "id": "testimonial-placeholder-1",
+      "name": "Person Name",
+      "role": "Their Role",
+      "company": "Company Name",
+      "content": "What they said about you and your work. This should be a genuine testimonial.",
+      "avatar": "/images/testimonials/placeholder.jpg"
+    }
+  ]
+}

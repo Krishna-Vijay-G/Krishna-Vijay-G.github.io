@@ -1,0 +1,281 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0f;
+  --foreground: #f8fafc;
+  --card: #151520;
+  --card-foreground: #e2e8f0;
+  --muted: #1e1e2e;
+  --muted-foreground: #94a3b8;
+  --border: #2d2d3d;
+  --accent: #3b82f6;
+  --accent-light: #60a5fa;
+  --accent-dark: #2563eb;
+  --accent-rgb: 59, 130, 246;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--muted);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-light);
+}
+
+/* Selection */
+::selection {
+  background-color: rgba(var(--accent-rgb), 0.3);
+  color: var(--foreground);
+}
+
+/* Glass morphism utility */
+.glass {
+  background: rgba(var(--accent-rgb), 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(var(--accent-rgb), 0.1);
+}
+
+.glass-card {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.25) 100%
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(15, 23, 42, 0.15);
+}
+
+.dark .glass-card {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Mesh gradient background */
+.mesh-gradient {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.4;
+  background: 
+    radial-gradient(at 40% 20%, rgba(var(--accent-rgb), 0.3) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgba(var(--accent-rgb), 0.2) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, rgba(var(--accent-rgb), 0.2) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, rgba(var(--accent-rgb), 0.15) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, rgba(var(--accent-rgb), 0.2) 0px, transparent 50%);
+  pointer-events: none;
+}
+
+/* Animated gradient border */
+.gradient-border {
+  position: relative;
+  background: var(--card);
+  border-radius: 1rem;
+  isolation: isolate;
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  padding: 2px;
+  background: linear-gradient(
+    135deg,
+    var(--accent),
+    var(--accent-light),
+    var(--accent-dark)
+  );
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.gradient-border:hover::before {
+  opacity: 1;
+}
+
+/* Glow effect */
+.glow {
+  box-shadow: 
+    0 0 20px rgba(var(--accent-rgb), 0.3),
+    0 0 40px rgba(var(--accent-rgb), 0.1);
+}
+
+.glow-text {
+  text-shadow: 0 0 20px rgba(var(--accent-rgb), 0.5);
+}
+
+/* Bento grid */
+.bento-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+}
+
+@media (max-width: 1024px) {
+  .bento-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .bento-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Section padding */
+
+.section-padding {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+@media (min-width: 640px) {
+  .section-padding {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .section-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+/* Container */
+.container-custom {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media (min-width: 640px) {
+  .container-custom {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .container-custom {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Text gradient */
+.text-gradient {
+  background: linear-gradient(135deg, var(--accent), var(--accent-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Marquee animation pause on hover */
+.marquee-container:hover .animate-marquee,
+.marquee-container:hover .animate-marquee-reverse {
+  animation-play-state: paused;
+}
+
+/* Focus visible */
+*:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Prevent focus outline/box on Recharts SVG/chart elements (click selection) */
+.recharts-wrapper:focus,
+.recharts-surface:focus,
+.recharts-wrapper :focus,
+.recharts-surface :focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Also ensure SVGs inside charts don't show browser focus outlines */
+.recharts-surface svg:focus,
+.recharts-surface svg:focus-visible {
+  outline: none !important;
+}
+
+/* Hide scrollbar for marquee */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Thin scrollbar for markdown viewer */
+.markdown-content::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.markdown-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.markdown-content::-webkit-scrollbar-thumb {
+  background: rgba(var(--accent-rgb), 0.4);
+  border-radius: 3px;
+}
+
+.markdown-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(var(--accent-rgb), 0.6);
+}
